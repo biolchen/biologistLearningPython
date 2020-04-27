@@ -3,6 +3,8 @@ import numpy as np
 import pandas as pd
 from collections import Counter
 from matplotlib import pyplot as plt
+import os
+os.chdir(os.path.dirname(__file__))
 
 plt.style.use("fivethirtyeight")
 

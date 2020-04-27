@@ -2,7 +2,8 @@
 import csv
 import random
 import time
-
+import os
+os.chdir(os.path.dirname(__file__))
 x_value = 0
 total_1 = 1000
 total_2 = 1000

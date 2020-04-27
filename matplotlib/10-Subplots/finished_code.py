@@ -1,7 +1,8 @@
 
 import pandas as pd
 from matplotlib import pyplot as plt
-
+import os
+os.chdir(os.path.dirname(__file__))
 plt.style.use('seaborn')
 
 data = pd.read_csv('data.csv')
@@ -31,5 +32,5 @@ plt.tight_layout()
 
 plt.show()
 
-fig1.savefig('fig1.png')
-fig2.savefig('fig2.png')
+#fig1.savefig('fig1.png')
+#fig2.savefig('fig2.png')

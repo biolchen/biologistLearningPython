@@ -1,10 +1,10 @@
 ##
 import pandas as pd
 from matplotlib import pyplot as plt
-
 plt.style.use('seaborn')
-
-data = pd.read_csv('/Users/liangchen/Dropbox/REPO/Py/Python/Matplotlib/07-ScatterPlots/2019-05-31-data.csv')
+import os
+os.chdir(os.path.dirname(__file__))
+data = pd.read_csv('2019-05-31-data.csv')
 view_count = data['view_count']
 likes = data['likes']
 ratio = data['ratio']
@@ -25,5 +25,4 @@ plt.ylabel('Total Likes')
 plt.tight_layout()
 
 plt.show()
-plt.clf()
 ##

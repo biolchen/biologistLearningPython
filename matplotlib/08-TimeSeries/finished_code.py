@@ -2,7 +2,8 @@ import pandas as pd
 from datetime import datetime, timedelta
 from matplotlib import pyplot as plt
 from matplotlib import dates as mpl_dates
-
+import os
+os.chdir(os.path.dirname(__file__))
 plt.style.use('seaborn')
 
 data = pd.read_csv('data.csv')

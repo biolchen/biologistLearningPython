@@ -1,6 +1,7 @@
 import pandas as pd
 from matplotlib import pyplot as plt
-
+import os
+os.chdir(os.path.dirname(__file__))
 data = pd.read_csv('data.csv')
 ages = data['Age']
 dev_salaries = data['All_Devs']

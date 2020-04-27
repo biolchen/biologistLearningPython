@@ -39,7 +39,7 @@ plt.gca().set(xlim=(0.0, 0.1), ylim=(0, 90000),
 plt.xticks(fontsize=12); plt.yticks(fontsize=12)
 plt.title("Scatterplot of Midwest Area vs Population", fontsize=22)
 plt.legend(fontsize=12)
-plt.savefig("/Users/liangchen/Downloads/test2.png")
+plt.show()
 
 ##
 

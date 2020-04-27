@@ -1,7 +1,8 @@
 
 import pandas as pd
 from matplotlib import pyplot as plt
-
+import os
+os.chdir(os.path.dirname(__file__))
 plt.style.use('seaborn')
 
 data = pd.read_csv('data.csv')
