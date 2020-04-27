@@ -31,34 +31,6 @@ class Solution:
 Input= "ddabcabcbb"
 Solution().lengthOfLongestSubstring(Input)
 ##
-
-new_s = ['a','b','c']
-
-new_s.pop()
-new_s.pop(0)
-###
-for i in
-
-##
-class Solution:
-    def longestPalindrome(self, s):
-        maxLen = len(s)
-        flag = False
-        for i in set(s):
-            count = s.count(i)
-            if count%2==1:
-                maxLen -= 1
-                flag = True
-        if flag:
-            maxLen += 1
-        return maxLen
-
-Solution().longestPalindrome('abccccdd')
-##
-for i in range(1,10):
-    print(i)
-##
-
 class Solution:
     def longestPalindrome(self, s):
         k = 1
@@ -340,30 +312,6 @@ class Solution:
 ##
 Solution().isSubsequence(s,t)
 ##
-
-
-
-class Solution:
-    def numWays(self, n, k):
-        if n==0 or k == 0:
-            return 0
-        if n == 1:
-            return k
-        if n == 2:
-            return k**2
-        dp = []
-        dp.append(())
-
-
-
-
-        p1 = k
-        p2 = k
-        p3 = p1 p3
-
-
-##
-
 k=2
 n=3
 

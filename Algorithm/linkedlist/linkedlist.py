@@ -37,5 +37,3 @@ class NewList:
 
             else:
                 origin.next = temp
-
-    def serach 

@@ -1,16 +1,9 @@
 
-ass Solution:
+class Solution:
     def hammingDistance(self, x: int, y: int) -> int:
-
-
         '{0:04b}'.format(x)
         '{0:04b}'.format(y)
-
-
-
-
-
-'{0:00b}'.format(40)
+        '{0:00b}'.format(40)
 
 bin(1)
 bin(40)
@@ -75,30 +68,7 @@ class Solution:
             
 
 ##
-A = "abcd"
-B = "cdabcdab"
-B in A*3
-B.split(A)
-class Solution:
-    def repeatedStringMatch(self, A: str, B: str) -> int:
-        if len(A) >= len(B):
-            if B in A:
-                return 1 
-            if B in A*2:
-                return 2
-            else:
-                return -1
-        else:
 
-        n = 1
-        len0 = len(A)
-        if len(A) < len(B) and (B not in A*n):
-            n += 1
-            A = A*n
-            print(A*n)
-        return int(len(A)/len0)
-
-Solution().repeatedStringMatch(A, B)
 
 
 ##
@@ -137,22 +107,7 @@ class Solution:
 ##
 
 
-words = ["gin", "zen", "gig", "msg"]
 
-class Solution:
-    def uniqueMorseRepresentations(self, words):
-        import string
-        from collections import Counter
-        morse_codes = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
-        d = dict(zip(string.ascii_lowercase, morse_codes))
-        morse_l = []
-        for word in words:
-            morse = ''
-            for i in word:
-                morse += d[i]
-            morse_l.append(morse)
-        return len(Counter(morse_l))
-Solution().uniqueMorseRepresentations(words)
 ##
             
 
