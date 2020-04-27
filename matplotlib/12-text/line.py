@@ -18,5 +18,4 @@ ax.text(2,6,'text here')
 ax.annotate('annotate', xy=(6,1), xytext=(8,4), arrowprops=dict(facecolor='black', shrink=0.05))
 ax.annotate("", xy=(0.5, 0.5), xytext=(2, 2),arrowprops=dict(arrowstyle="->"))
 plt.show()
-plt.clf()
 ##

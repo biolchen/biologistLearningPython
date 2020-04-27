@@ -10,16 +10,13 @@ from sklearn.metrics import roc_curve, auc #for model evaluation
 from sklearn.metrics import classification_report #for model evaluation
 from sklearn.metrics import confusion_matrix #for model evaluation
 from sklearn.model_selection import train_test_split #for data splitting
-#import eli5 #for purmutation importance
-#from eli5.sklearn import PermutationImportance
-#import shap #for SHAP values
-#from pdpbox import pdp, info_plots #for partial plots
-#np.random.seed(123) #ensure reproducibility
+import os
+os.chdir(os.path.dirname(__file__))
 
 pd.options.mode.chained_assignment = None  #hide any pandas warnings
 
 
-df = pd.read_csv("/Users/liangchen/Dropbox/input/kaggle/heart.csv")
+df = pd.read_csv("./heart.csv")
 df.columns = ['age', 'sex', 'chest_pain_type', 'resting_blood_pressure', 'cholesterol', 'fasting_blood_sugar', 'rest_ecg', 'max_heart_rate_achieved',
        'exercise_induced_angina', 'st_depression', 'st_slope', 'num_major_vessels', 'thalassemia', 'target']
 
