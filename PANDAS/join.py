@@ -10,4 +10,5 @@ df2 = pd.DataFrame({
     'B': ['B0', 'B1', 'B2']
 }).set_index(['key'])
 df2
-df1.join(df2)
+df_out = df1.join(df2)
+print(df_out)

@@ -1,4 +1,8 @@
 
+
+import os
+os.chdir(os.path.dirname(__file__))
+
 try:
     f = open('curruptfile.txt')
     # if f.name == 'currupt_file.txt':

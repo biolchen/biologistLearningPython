@@ -1,5 +1,7 @@
 ''' JavaScript Object Notation '''
 import json
+import os
+os.chdir(os.path.dirname(__file__))
 
 with open('states.json') as f:
   data = json.load(f)

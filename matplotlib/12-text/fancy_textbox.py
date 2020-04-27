@@ -21,7 +21,7 @@ def make_arrowstyles(ax):
     styles = mpatch.ArrowStyle.get_styles()
 
     ax.set_xlim(0, 4)
-    ax.set_ylim(0, figheight)
+    ax.set_ylim(0, 40)
 
     for i, (stylename, styleclass) in enumerate(sorted(styles.items())):
         y = (float(len(styles)) - 0.25 - i)  # /figheight
@@ -51,3 +51,4 @@ make_boxstyles(ax1)
 
 ax2 = fig.add_subplot(122, frameon=False, xticks=[], yticks=[])
 make_arrowstyles(ax2)
+plt.show()

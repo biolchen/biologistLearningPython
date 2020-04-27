@@ -2,6 +2,9 @@
 # Closures
 
 import logging
+import os
+os.chdir(os.path.dirname(__file__))
+
 logging.basicConfig(filename='example.log', level=logging.INFO)
 
 

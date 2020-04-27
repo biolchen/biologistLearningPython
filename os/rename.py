@@ -1,5 +1,5 @@
 import os
-os.chdir('/Users/liangchen/Downloads/')
+os.chdir(os.path.dirname(__file__))
 
 # Am I in the correct directory?
 print(os.getcwd())

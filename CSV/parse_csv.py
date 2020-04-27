@@ -1,4 +1,6 @@
 import csv
+import os
+os.chdir(os.path.dirname(__file__))
 
 with open('names.csv', 'r') as csv_file:
     csv_reader = csv.DictReader(csv_file)
@@ -11,5 +13,6 @@ with open('names.csv', 'r') as csv_file:
         csv_writer.writeheader()
 
         for line in csv_reader:
+            print(line)
             del line['email']
             csv_writer.writerow(line)

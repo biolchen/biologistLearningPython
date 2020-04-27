@@ -1,7 +1,7 @@
 #File Objects
 ##The Basics:
 import os
-os.chdir('/Users/liangchen/Dropbox/REPO/Py/Python-Files')
+os.chdir(os.path.dirname(__file__))
 f = open("test.txt", "r")
 #f = open("test.txt", "w")
 #f = open("test.txt", "a")
@@ -19,8 +19,8 @@ class Files:
             print(f_contents)
 ##
 	##Big Files:
-	f_contents = f.readlines()
-	print(f_contents)
+	#f_contents = f.readlines()
+	#print(f_contents)
 
     ###With the extra lines:
 	#f_contents = f.readline()

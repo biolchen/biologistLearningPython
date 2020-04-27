@@ -4,6 +4,10 @@ import csv
 html_output = ''
 names = []
 
+
+import os
+os.chdir(os.path.dirname(__file__))
+
 with open('patrons.csv',
           'r') as data_file:
     csv_data = csv.DictReader(data_file)
