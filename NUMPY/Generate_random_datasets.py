@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 data = np.random.lognormal(size=(37, 4), mean=1.5, sigma=1.75)
-np.random.lognormal
 labels = list('ABCD')
 fs = 10  # fontsize
 print(data)
