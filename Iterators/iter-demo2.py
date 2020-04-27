@@ -33,9 +33,3 @@ print(next(my_sentence))
 print(next(my_sentence))
 print(next(my_sentence))
 
-
-# This should have the following output:
-# This
-# is
-# a
-# test

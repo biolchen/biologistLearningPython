@@ -4,7 +4,7 @@ import csv
 html_output = ''
 names = []
 
-with open('/Users/liangchen/Dropbox/REPO/Py/Python-Patreon-CSV/patrons.csv',
+with open('patrons.csv',
           'r') as data_file:
     csv_data = csv.DictReader(data_file)
 
