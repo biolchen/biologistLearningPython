@@ -14,7 +14,6 @@ df = pd.DataFrame({
 })
 
 
-##
 def make_spider(row, title, color):
     # number of variable
     categories = list(df)[1:]

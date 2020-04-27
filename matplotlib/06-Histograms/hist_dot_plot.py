@@ -1,4 +1,7 @@
 # Create some normally distributed data
+import numpy as np
+import matplotlib.pyplot as plt 
+
 mean = [0, 0]
 cov = [[1, 1], [1, 2]]
 x, y = np.random.multivariate_normal(mean, cov, 3000).T
