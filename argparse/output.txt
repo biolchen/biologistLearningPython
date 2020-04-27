@@ -1,0 +1,5 @@
+line1:aaaaaaaaaaaaaaaaaaaaaaaaaaaa\n
+-------------------
+line2:bbbbbbbbbbb\n
+['1', '2', '3']
+['/Users/liangchen/Dropbox/REPO/data-science-training/argparse/a1.py', '-i', '1', '2', '3']
