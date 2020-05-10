@@ -7,6 +7,8 @@ import plotly.offline as pyo
 import plotly.graph_objs as go
 from plotly import tools
 import pandas as pd
+import os
+os.chdir(os.path.dirname(__file__))
 
 df1 = pd.read_csv('../data/2010SitkaAK.csv')
 df2 = pd.read_csv('../data/2010SantaBarbaraCA.csv')

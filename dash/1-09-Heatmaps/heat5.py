@@ -11,6 +11,8 @@
 import plotly.offline as pyo
 import plotly.graph_objs as go
 import pandas as pd 
+import os
+os.chdir(os.path.dirname(__file__))
 # Create a DataFrame from  "flights" data
 import os
 os.chdir(os.path.dirname(__file__))

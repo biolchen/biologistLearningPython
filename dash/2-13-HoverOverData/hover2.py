@@ -5,7 +5,8 @@ from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 import pandas as pd
 import base64
-
+import os
+os.chdir(os.path.dirname(__file__))
 app = dash.Dash()
 
 df = pd.read_csv('../data/wheels.csv')

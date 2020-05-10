@@ -1,5 +1,8 @@
 
 import logging
+import os
+os.chdir(os.path.dirname(__file__))
+
 
 logging.basicConfig(filename='employee.log', level=logging.INFO,
                     format='%(levelname)s:%(message)s')

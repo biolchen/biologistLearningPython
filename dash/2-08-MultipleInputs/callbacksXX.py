@@ -8,7 +8,8 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 import pandas as pd
-
+import os
+os.chdir(os.path.dirname(__file__))
 app = dash.Dash()
 
 df = pd.read_csv(

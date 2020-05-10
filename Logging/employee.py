@@ -1,5 +1,6 @@
 import logging
-
+import os
+os.chdir(os.path.dirname(__file__))
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 

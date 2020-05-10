@@ -13,7 +13,8 @@ import dash_core_components as dcc
 import dash_html_components as html
 import plotly.graph_objs as go
 import pandas as pd
-
+import os
+os.chdir(os.path.dirname(__file__))
 # Launch the application:
 app = dash.Dash()
 
